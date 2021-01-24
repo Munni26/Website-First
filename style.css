@@ -2,13 +2,17 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
 }
-h1 {
-  font-size: 50px;
+.header h1 {
+  font-size: 30px;
 }
-h2 {
-  font-size: 60px;
+.header p {
+  text-align: left;
+  margin-bottom: 40px;
+}
+.name-color {
   color: crimson;
 }
+
 h3 {
   text-align: center;
   font-size: 60px;
@@ -16,21 +20,21 @@ h3 {
 .half-width {
   width: 40%;
   float: left;
-  margin-left: 5%;
-  padding-left: 2%;
+  margin: 3%;
+  padding: 2%;
 }
 .half-width img {
   width: 100%;
+  position: relative;
 }
 .header {
   background-image: url("images/header-bg.png");
   background-repeat: no-repeat;
-  padding: 30px;
+  background-position: left;
 }
 section {
-  height: 500px;
-  padding-bottom: 150px;
-  margin-bottom: 100px;
+  height: 700px;
+  margin: 10px;
 }
 .link-button {
   text-decoration: none;
@@ -43,8 +47,14 @@ section {
 }
 .biography {
   background-image: url("images/biography-bg.png");
-  background-repeat: no-repeat;
-  padding: 30px;
+}
+.biography img {
+  width: 500px;
+  height: 500px;
+}
+.biography p {
+  text-align: left;
+  margin-bottom: 40px;
 }
 .single-work img {
   width: 33.33%;
@@ -55,8 +65,8 @@ section {
 }
 .clm {
   float: left;
-  width: 33.33%;
-  padding: 3px;
+  width: 30%;
+  margin-right: 40px;
   height: 300px;
 }
 .latest-work {
@@ -68,6 +78,10 @@ section {
   padding: 20px;
   background-image: url("images/footer-bg.png");
   padding: 30px;
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 50px;
 }
 h4 {
   text-align: center;
@@ -81,7 +95,10 @@ p {
 button {
   background-image: linear-gradient(45deg, hotpink, crimson);
   background-color: crimson;
-  padding: 10px 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
